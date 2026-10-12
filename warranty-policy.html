@@ -14,42 +14,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 
-<style>
-/* Policy pages use the same Ambica maroon + deep navy + off-white theme. */
-:root{--policy-maroon:#7b1720;--policy-maroon-dark:#4d0d13;--policy-navy:#12283d;--policy-navy-2:#1b3852;--policy-offwhite:#f6f5f1;--policy-gray:#65717d;--policy-border:#d9dde1;}
-body{background:var(--policy-offwhite);color:#17202a;}
-/* Leave the shared .header, .nav, .logo and .nav-links styling to css/style.css. */
-.policy-hero{position:relative;overflow:hidden;padding:150px 0 65px;background:linear-gradient(118deg,#0c2032 0%,#12283d 55%,#1d3b57 100%);color:#fff;}
-.policy-hero:before{content:"";position:absolute;inset:0;opacity:.13;background-image:linear-gradient(rgba(255,255,255,.13) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.13) 1px,transparent 1px);background-size:55px 55px;pointer-events:none;}
-.policy-hero .container{position:relative;z-index:1;}
-.policy-kicker{display:inline-block;margin-bottom:12px;color:#e19aa0;font:700 12px Inter,Arial,sans-serif;letter-spacing:2px;text-transform:uppercase;}
-.policy-hero h1{margin:0;color:#fff;font-family:'Barlow Condensed',Arial,sans-serif;font-size:clamp(42px,5vw,68px);font-weight:600;line-height:.98;letter-spacing:.2px;}
-.policy-hero p{margin-top:16px;color:rgba(255,255,255,.72);font-size:14px;}
-.policy-hero .policy-rule{display:block;width:62px;height:4px;margin-top:24px;background:var(--policy-maroon);}
-.privacy-policy-section,.warranty-policy-section{padding:70px 0 90px;background:var(--policy-offwhite);}
-.privacy-policy-content,.warranty-policy-content{width:min(100% - 40px,1180px);margin:0 auto;padding:clamp(25px,4.5vw,58px);background:#fff;border:1px solid var(--policy-border);border-top:4px solid var(--policy-maroon);box-shadow:0 14px 40px rgba(18,40,61,.07);}
-.privacy-policy-content h1,.warranty-policy-content h1{color:var(--policy-navy);font-family:'Barlow Condensed',Arial,sans-serif;font-size:clamp(30px,3.5vw,42px);line-height:1.05;margin:0 0 15px;}
-.privacy-policy-content h2,.warranty-policy-content h2{color:var(--policy-navy);font-family:'Barlow Condensed',Arial,sans-serif;font-size:clamp(24px,2.7vw,32px);line-height:1.15;margin:38px 0 15px;padding:0 0 10px;border-bottom:1px solid var(--policy-border);position:relative;}
-.privacy-policy-content h2:after,.warranty-policy-content h2:after{content:"";position:absolute;left:0;bottom:-1px;width:55px;height:3px;background:var(--policy-maroon);}
-.privacy-policy-content h3,.warranty-policy-content h3{color:var(--policy-navy);font-family:'Barlow Condensed',Arial,sans-serif;font-size:24px;margin:26px 0 10px;}
-.privacy-policy-content p,.warranty-policy-content p,.privacy-policy-content li,.warranty-policy-content li{color:#586572;font-family:Inter,Arial,sans-serif;font-size:15px;line-height:1.85;}
-.privacy-policy-content p,.warranty-policy-content p{margin:0 0 16px;}
-.privacy-policy-content ul,.warranty-policy-content ul{margin:0 0 22px;padding-left:24px;}
-.privacy-policy-content li,.warranty-policy-content li{margin:0 0 8px;padding-left:3px;}
-.privacy-policy-content li::marker,.warranty-policy-content li::marker{color:var(--policy-maroon);}
-.privacy-policy-content a,.warranty-policy-content a{color:var(--policy-maroon);overflow-wrap:anywhere;}
-.privacy-policy-content a:hover,.warranty-policy-content a:hover{color:var(--policy-navy);}
-.privacy-effective,.policy-effective{display:inline-block;margin:0 0 28px!important;padding:9px 14px;background:#f3f4f5;border-left:3px solid var(--policy-maroon);color:var(--policy-navy)!important;font-size:13px!important;}
-.privacy-contact,.warranty-contact{margin-top:28px;padding:25px;background:#f3f4f5;border-left:4px solid var(--policy-maroon);}
-.privacy-contact h3,.warranty-contact h3{margin-top:0;}
-.warranty-highlight{padding:20px 22px;background:#f6f5f1;border-left:4px solid var(--policy-maroon);color:var(--policy-navy);}
-/* Legal links are added inside the existing footer bottom without changing the footer layout. */
-.footer-legal-links{display:flex;flex-wrap:wrap;gap:18px;align-items:center;}
-.footer-legal-links a{display:inline-block!important;margin:0!important;color:#d4dce2!important;font-size:12px!important;}
-.footer-legal-links a:hover{color:#e19aa0!important;}
-@media(max-width:700px){.policy-hero{padding:125px 0 48px;}.privacy-policy-section,.warranty-policy-section{padding:38px 0 52px;}.privacy-policy-content,.warranty-policy-content{width:calc(100% - 28px);padding:25px 19px;}.privacy-policy-content p,.warranty-policy-content p,.privacy-policy-content li,.warranty-policy-content li{font-size:14px;}.footer-legal-links{justify-content:center;gap:14px;}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
-</style>
 </head>
 <body>
 <header class="header">
@@ -73,7 +37,7 @@ body{background:var(--policy-offwhite);color:#17202a;}
   </div>
 </header>
 <main>
-<section class="policy-hero"><div class="container"><span class="policy-kicker">AMBICA MACHINE TOOLS</span><h1>WARRANTY POLICY</h1><p>Effective Date: September 2026</p><span class="policy-rule"></span></div></section>
+<section class="policy-hero"><div class="container"><span class="policy-kicker">AMBICA MACHINE TOOLS</span><h1>WARRANTY POLICY</h1><span class="policy-rule"></span></div></section>
 <section class="warranty-policy-section">
 
             <div class="container">
